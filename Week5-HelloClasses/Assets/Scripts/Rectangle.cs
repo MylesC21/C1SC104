@@ -4,17 +4,17 @@ public class Rectangle
 {
     private float height;
     private float width;
-    private float length;
 
     public Rectangle()
     {
+        // Default values for my instantiated rectangle.
         height = 0f;
         width = 0f;
-        length = 0f;
     }
 
     public Rectangle(float newHeight, float newWidth)
     {
+        // Should consider testing for positive numbers before accepting the parameters
 
         height = newHeight;
         width = newWidth;
@@ -49,11 +49,5 @@ public class Rectangle
     {
         width = newWidth;
     }
-    public float GetLength()
-    {
-        return Length;
-    }
+}
 
-    public void SetLength(float newLength)
-    {
-        length = newLength;
